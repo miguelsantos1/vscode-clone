@@ -56,7 +56,7 @@ const App = () =>  {
               <h2 className='flex bg-menu-vscode p-3 gap-2 hover:bg-[#3a4151]  hover:text-green-200 cursor-pointer items-center text-cyanSelectText'> <File size={20} color='blue' /> miguelsantos.txt </h2>
             </div>
             <div className='h-full '>
-              <textarea className='bg-bg-vscode mx-[30px] p-[20px] text-[1rem] focus:outline-none text-white h-full w-full'></textarea>
+              <textarea className='bg-bg-vscode px-[30px] py-[20px] text-[1rem] focus:outline-none text-white h-full w-full'></textarea>
             </div>
           </div>
 
