@@ -5,7 +5,6 @@ export default {
     fontFamily: { 'sans': ['sans-serif', 'Poppins'] },
     extend: {
       colors: {
-        'bg': 'linear-gradient(270deg, #3479FF 0%, #ADADF0 100%);',
         'cyanSelectText': '#00C9D5',
         'cyan': '#85F8FF',
         'bg-vscode': '#22262F',
