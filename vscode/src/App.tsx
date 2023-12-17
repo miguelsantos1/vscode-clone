@@ -44,16 +44,16 @@ const App = () =>  {
           </div>
         </aside>
 
-        <div className="px-[20px] pt-4 w-[220px] bg-menu-vscode font-semibold">
-          <h2 className="text-cyan mb-[30px]"> EXPLORER </h2>
+        <div className=" pt-4 w-[220px] bg-menu-vscode font-semibold">
+          <h2 className="px-[20px] text-[#a7a7a7bc] mb-[30px]"> EXPLORER </h2>
 
-          <p className='flex cursor-pointer gap-2 text-[.9 rem] items-center text-cyanSelectText'><File color='blue'  /> <span>miguelsantos.txt</span>  </p>
+          <p className='flex p-2 hover:bg-[#3a4151]  hover:text-green-200 cursor-pointer gap-2 text-[.9rem] items-center text-cyanSelectText'><File color='blue'  /> <span>miguelsantos.txt</span>  </p>
         
         </div>
 
           <div className='flex flex-col h-full w-full'>
-            <div className='p-4 bg-menu-vscode h-[60px] w-full'>
-              <h2 className='flex gap-2 cursor-pointer items-center text-cyanSelectText'> <File size={20} color='blue' /> miguelsantos.txt </h2>
+            <div className='h-[60px] w-[180px]'>
+              <h2 className='flex bg-menu-vscode p-4 gap-2 hover:bg-[#3a4151]  hover:text-green-200 cursor-pointer items-center text-cyanSelectText'> <File size={20} color='blue' /> miguelsantos.txt </h2>
             </div>
             <div className='h-full '>
               <textarea className='bg-bg-vscode p-[20px] text-[1rem] focus:outline-none text-white h-full w-full'></textarea>
