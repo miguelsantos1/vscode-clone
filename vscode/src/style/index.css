@@ -12,6 +12,9 @@ body {
     height: 100vh;
 
     overflow: hidden;
+
+    font-family: monospace, 'Space Mono';
+
 }
 
 main ::-webkit-scrollbar {

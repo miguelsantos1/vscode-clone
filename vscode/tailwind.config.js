@@ -2,7 +2,7 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx,tsx}"],
   theme: {
-    fontFamily: { 'sans': ['sans-serif', 'Poppins'] },
+    fontFamily: { 'mono': ['ui-monospace', 'Space Mono'] },
     extend: {
       colors: {
         'cyanSelectText': '#00C9D5',
