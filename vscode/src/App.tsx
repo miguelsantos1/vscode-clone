@@ -29,7 +29,7 @@ const App = () =>  {
           <div className="w-[15px] cursor-pointer h-[15px] bg-[#1dff1d] rounded-full"></div>
         </div>
 
-          <h1 className="text-gray-200"> miguelsantos.txt -- vscode </h1>
+          <h1 className="text-gray-200"> miguelsantos.js -- vscode </h1>
         <span className="invisible"></span>
 
       </header>
@@ -59,7 +59,7 @@ const App = () =>  {
 
           <div className='flex flex-col h-full w-full'>
             <div className='h-[60px] w-[220px]'>
-              <h2 className='flex bg-menu-vscode p-3 gap-2 hover:bg-[#3a4151]  hover:text-green-200 cursor-pointer items-center text-cyanSelectText'> <File size={20} color='blue' /> miguelsantos.txt </h2>
+              <h2 className='flex bg-menu-vscode p-3 gap-2 hover:bg-[#3a4151]  hover:text-green-200 cursor-pointer items-center text-cyanSelectText'> <File size={20} color='blue' /> miguelsantos.js </h2>
             </div>
             <div className='h-full w-full'>
           
