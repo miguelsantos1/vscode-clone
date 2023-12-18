@@ -53,7 +53,7 @@ const App = () =>  {
         <div className=" pt-4 w-[230px] bg-menu-vscode font-semibold">
           <h2 className="px-[20px] text-[#a7a7a7bc] mb-[30px]"> EXPLORER </h2>
 
-          <p className='flex p-2 hover:bg-[#3a4151]  hover:text-green-200 cursor-pointer gap-2 text-[.9rem] items-center text-cyanSelectText'><File size={20} color='blue'  /> <span>miguelsantos.txt</span>  </p>
+          <p className='flex p-2 hover:bg-[#3a4151]  hover:text-green-200 cursor-pointer gap-2 text-[.9rem] items-center text-cyanSelectText'><File size={20} color='blue'  /> <span>miguelsantos.js</span>  </p>
         
         </div>
 
