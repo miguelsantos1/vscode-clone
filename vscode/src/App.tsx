@@ -8,6 +8,12 @@ import {
   Settings, 
 } from 'lucide-react'
 
+import AceEditor from 'react-ace'
+
+import "ace-builds/src-noconflict/mode-javascript";
+import "ace-builds/src-noconflict/theme-twilight";
+import "ace-builds/src-noconflict/ext-language_tools";
+
 
 const App = () =>  {
 
@@ -55,8 +61,21 @@ const App = () =>  {
             <div className='h-[60px] w-[220px]'>
               <h2 className='flex bg-menu-vscode p-3 gap-2 hover:bg-[#3a4151]  hover:text-green-200 cursor-pointer items-center text-cyanSelectText'> <File size={20} color='blue' /> miguelsantos.txt </h2>
             </div>
-            <div className='h-full '>
-              <textarea className='bg-bg-vscode px-[30px] py-[20px] text-[1rem] focus:outline-none text-white h-full w-full'></textarea>
+            <div className='h-full w-full'>
+          
+            <AceEditor 
+            className='bg-bg-vscode'
+            height='100%'
+            width='100%'
+            fontSize={20}
+          
+            mode="javascript"
+            theme="twilight"
+            value='console.log()'
+            name="UNIQUE_ID_OF_DIV"
+            editorProps={{ $blockScrolling: true }}
+  />,
+
             </div>
           </div>
 
